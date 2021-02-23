@@ -18,6 +18,7 @@
 		07B1251C259906BE0086A9EF /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B1251B259906BE0086A9EF /* PhotoViewerViewController.swift */; };
 		07B1251F259906D70086A9EF /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B1251E259906D70086A9EF /* VideoPlayerViewController.swift */; };
 		07B12522259906FF0086A9EF /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B12521259906FF0086A9EF /* NewConversationViewController.swift */; };
+		07B1252A259945360086A9EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B12529259945360086A9EF /* Extensions.swift */; };
 		25CC0D724A0E39FCB5FB26C0 /* Pods_ChatMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05929902D7079277828802AE /* Pods_ChatMessenger.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		07B1251B259906BE0086A9EF /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
 		07B1251E259906D70086A9EF /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		07B12521259906FF0086A9EF /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		07B12529259945360086A9EF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		43F6136FBDBE49C6EE74F866 /* Pods-ChatMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatMessenger.release.xcconfig"; path = "Target Support Files/Pods-ChatMessenger/Pods-ChatMessenger.release.xcconfig"; sourceTree = "<group>"; };
 		9FF4607E8AFC407DE6CD2EA3 /* Pods-ChatMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatMessenger.debug.xcconfig"; path = "Target Support Files/Pods-ChatMessenger/Pods-ChatMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,8 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				07B124FD259900B10086A9EF /* ConversationsViewController.swift */,
-				07B12515259906910086A9EF /* LoginViewController.swift */,
-				07B12518259906A60086A9EF /* RegisterViewController.swift */,
+				07B1252525992FA00086A9EF /* Login */,
 				07B1251B259906BE0086A9EF /* PhotoViewerViewController.swift */,
 				07B1251E259906D70086A9EF /* VideoPlayerViewController.swift */,
 				07B12521259906FF0086A9EF /* NewConversationViewController.swift */,
@@ -124,6 +125,7 @@
 			children = (
 				07B124F9259900B10086A9EF /* AppDelegate.swift */,
 				07B124FB259900B10086A9EF /* SceneDelegate.swift */,
+				07B12529259945360086A9EF /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -135,6 +137,15 @@
 				07B12504259900B40086A9EF /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		07B1252525992FA00086A9EF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				07B12515259906910086A9EF /* LoginViewController.swift */,
+				07B12518259906A60086A9EF /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		67969B80C62A79ADB2C746E2 /* Frameworks */ = {
@@ -151,7 +162,6 @@
 				9FF4607E8AFC407DE6CD2EA3 /* Pods-ChatMessenger.debug.xcconfig */,
 				43F6136FBDBE49C6EE74F866 /* Pods-ChatMessenger.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -252,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B12516259906910086A9EF /* LoginViewController.swift in Sources */,
+				07B1252A259945360086A9EF /* Extensions.swift in Sources */,
 				07B12519259906A60086A9EF /* RegisterViewController.swift in Sources */,
 				07B12522259906FF0086A9EF /* NewConversationViewController.swift in Sources */,
 				07B124FE259900B10086A9EF /* ConversationsViewController.swift in Sources */,
