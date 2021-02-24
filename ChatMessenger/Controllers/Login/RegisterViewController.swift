@@ -13,10 +13,13 @@ class RegisterViewController: UIViewController {
     
     let scrollView = UIScrollView()
     scrollView.clipsToBounds = true
+    // sdasdas
     
-   // asdasdas
+    
+   // asdasdasd
+   //§ asdasdas
     return scrollView
-    
+    //asdasd
   }()
   
   private let imageView : UIImageView = {
